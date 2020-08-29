@@ -1,0 +1,52 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    padding-inline-start: inherit;
+}
+.wrapper {
+    background-color: gainsboro;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    padding-inline-end: 1rem;
+    padding-inline-start: 1rem;
+}
+
+.movies {
+    background-color: white;
+    padding-block-start: 2rem;
+    padding-block-end: 2rem;
+    padding-inline-end: 2rem;
+    padding-inline-start: 2rem;
+    margin-inline-end: 2rem;
+    margin-inline-start: 2rem;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 180px;
+    right: 79px;
+}
+.data > li {
+    padding-inline-end: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.dir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dir > li {
+    padding-inline-end: 2rem;
+}
