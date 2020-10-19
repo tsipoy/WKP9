@@ -28321,17 +28321,17 @@ function MainComponent() {
       }, /*#__PURE__*/_react.default.createElement("header", null, /*#__PURE__*/_react.default.createElement("h2", null, movie.title), /*#__PURE__*/_react.default.createElement("ul", {
         className: "data"
       }, /*#__PURE__*/_react.default.createElement("li", {
-        key: movie.index
+        key: movie.id
       }, "Realease data: ", movie.release_date), /*#__PURE__*/_react.default.createElement("li", {
-        key: movie.index
+        key: movie.id
       }, "Rt score: ", movie.rt_score))), /*#__PURE__*/_react.default.createElement("nav", null, /*#__PURE__*/_react.default.createElement("p", {
         className: "description"
       }, movie.description), /*#__PURE__*/_react.default.createElement("ul", {
         className: "dir"
       }, /*#__PURE__*/_react.default.createElement("li", {
-        key: movie.index
+        key: movie.id
       }, "Director: ", movie.director), /*#__PURE__*/_react.default.createElement("li", {
-        key: movie.index
+        key: movie.id
       }, "Producer: ", movie.producer))));
     })
   );
@@ -28452,7 +28452,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63417" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64672" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

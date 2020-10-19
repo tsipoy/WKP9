@@ -22,21 +22,21 @@ function MainComponent() {
         sortedMovies
             .map(movie => {
                 return (
-                    <article className="movie">
+                    <article className="movie" key={movie.id}>
                         <header>
                             <h2>
                                 {movie.title}
                             </h2>
                             <ul className="data">
-                                <li key={movie.index}>Realease data: {movie.release_date}</li>
-                                <li key={movie.index}>Rt score: {movie.rt_score}</li>
+                                <li >Realease data: {movie.release_date}</li>
+                                <li >Rt score: {movie.rt_score}</li>
                             </ul>
                         </header>
                         <nav>
                             <p className="description">{movie.description}</p>
                             <ul className="dir">
-                                <li key={movie.index}>Director: {movie.director}</li>
-                                <li key={movie.index}>Producer: {movie.producer}</li>
+                                <li >Director: {movie.director}</li>
+                                <li >Producer: {movie.producer}</li>
                             </ul>
                         </nav>
                     </article>
