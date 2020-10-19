@@ -1,0 +1,26 @@
+{
+  "name": "wkp9",
+  "version": "1.0.0",
+  "description": "- grab an element and the the url for fetching the data.\r - Create a fetch function using *async await*.\r - I also added the sort function inside the fetch.\r - After that, I created the html.\r - And finally, I call the fetch function.\r ### I learn many things dong this project such us:\r - fetching data from server whithout you create the object.\r ### Other comment\r I tryed to filter the movies by title but I couldn't.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsipoy/WKP9.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/tsipoy/WKP9/issues"
+  },
+  "homepage": "https://github.com/tsipoy/WKP9#readme",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}

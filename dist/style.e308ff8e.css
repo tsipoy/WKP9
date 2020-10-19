@@ -1,0 +1,74 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.75;
+    letter-spacing: 1px;
+}
+
+
+.wrapper {
+    background-color: gainsboro;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    padding-inline-end: 1rem;
+    padding-inline-start: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 2.5rem;
+}
+
+h1,
+h2 {
+    color: mediumturquoise;
+}
+
+p {
+    color: mediumvioletred;
+}
+
+.movies {
+    padding-block-start: 2rem;
+    padding-block-end: 2rem;
+    padding-inline-end: 2rem;
+    padding-inline-start: 2rem;
+    margin-inline-end: 2rem;
+    margin-inline-start: 2rem;
+}
+.movie {
+    
+    background-color: white;
+    margin-block-end: 2rem;
+    padding-block-end: 1rem;
+    padding-inline-end: 2rem;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.data > li {
+    padding-inline-end: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.dir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dir > li {
+    padding-inline-end: 2rem;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */

@@ -8,3 +8,5 @@
 - And finally, I call the fetch function.
 ### I learn many things dong this project such us:
 - fetching data from server whithout you create the object.
+### Other comment
+I tryed to filter the movies by title but I couldn't.
